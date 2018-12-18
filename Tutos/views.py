@@ -12,3 +12,6 @@ def help(request):
 
 def contact(request):
 	return render(request, 'pages/contact.html')
+
+def how_it_works_page(request):
+	return render(request, 'pages/how_it_works_page.html')
